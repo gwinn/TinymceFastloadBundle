@@ -1,0 +1,8 @@
+<form id="tinymce_file_uploader" action="{{ path('gwinn_tinymce_fastload_uploader') }}" method="post" enctype="multipart/form-data">
+    <input type="file" id="tiny_inner_image" name="tiny_inner_image">
+</form>
+
+{% javascripts output='js/compiled/script.js' '@GwinnTinymceFastloadBundle/Resources/public/js/*' %}
+    <script type="text/javascript" src="{{ asset_url }}"></script>
+{% endjavascripts %}
+

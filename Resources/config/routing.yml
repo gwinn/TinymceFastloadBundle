@@ -1,0 +1,6 @@
+gwinn_tinymce_fastload_uploader:
+    pattern:  /tinymce/upload
+    defaults: { _controller: GwinnTinymceFastloadBundle:Uploader:upload }
+    requirements:
+        _method:  POST
+

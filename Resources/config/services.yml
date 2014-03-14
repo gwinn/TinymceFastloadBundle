@@ -1,0 +1,7 @@
+parameters:
+#    gwinn_tinymce_fastload.example.class: Gwinn\TinymceFastloadBundle\Example
+
+services:
+#    gwinn_tinymce_fastload.example:
+#        class: %gwinn_tinymce_fastload.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
