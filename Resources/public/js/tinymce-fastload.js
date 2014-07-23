@@ -15,8 +15,9 @@ function tinymce_button_image_uploader(ed) {
             contentType: false,
             processData: false,
             success: function (response) {
-                ed.selection.setContent(response);
-                return false;
+                if (typeof(tinymce) != 'undefined') {
+                    ed.selection.setContent(response);
+                }
             },
             error: function () {
                 alert('Whoa! Something goes wrong. Try again later');
